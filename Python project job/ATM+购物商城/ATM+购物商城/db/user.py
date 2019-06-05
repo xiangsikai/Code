@@ -1,0 +1,1 @@
+user_file = {"User": {"dog": {"password": "123456", "key": 1}, "ATM": {"password": "123456", "key": 1}, "xsk": {"password": "123456", "key": 1}, "kevin": {"password": "123456", "key": 1}, "root": {"password": "123", "key": 1}}}

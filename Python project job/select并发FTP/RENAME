@@ -1,0 +1,38 @@
+作者：项思凯
+执行路径：
+server端：ftp_select_server\bin\bin_server
+clinet端：ftp_select_client\bin\bin_client
+
+程序介绍：
+		 FTP_select并发
+		 1.select实现socket并发
+		 2.并发上传，下载
+		
+程序结构:
+ftp_select_server/
+├── README
+├── select并发FTP.PNG #结构图
+│   ├── bin # 执行文件 目录
+│   │   ├── __init__.py
+│   │   ├── bin_server.py  #服务端执行
+│   ├── conf #配置文件
+│   │   ├── __init__.py
+│   ├── core #主要程序逻辑都 在这个目录 里
+│   │   ├── __init__.py
+│   │   ├── main #主引导文件
+│   ├── data  #用户数据存储的地方
+│   │   ├── __init__.py	
+
+ftp_select_client/
+├── README
+├── select并发FTP.PNG #结构图
+│   ├── bin # 执行文件 目录
+│   │   ├── __init__.py
+│   │   ├── bin_client.py  #客户端端执行
+│   ├── conf #配置文件
+│   │   ├── __init__.py
+│   ├── core #主要程序逻辑都 在这个目录 里
+│   │   ├── __init__.py
+│   │   ├── main #主引导文件
+│   ├── data  #用户数据存储的地方
+│   │   ├── __init__.py	

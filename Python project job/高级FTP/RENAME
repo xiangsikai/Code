@@ -1,0 +1,41 @@
+作者：项思凯
+python版本：3.6.1
+执行路径：
+FTP服务端执行路径：高级FTP作业\ftp_server\bin\ftp_server.py
+FTP客户端执行路径：高级FTP作业\ftp_client\ftp_client.py
+
+程序介绍：
+		 高级FTP
+		 1.socketserver实现，上传，下载
+		 2.socketserver多用户登录，用户名密码加密
+		 3.每个用户有自己的home目录
+		 4.磁盘配额，每个用户可进行不同限制
+		 5.只能在自己home目录下活动，可使用cd切换目录
+		 6.短点续传
+		 8.确认上传下载文件完整
+		
+程序结构:
+
+高级FTP作业/
+├── README
+├── 高级FTP.PNG #结构图
+├── ftp_client	 #ftp客户端
+│   ├── main # 主逻辑程序
+│   ├── ftp_client.py #FTP客户端执行程序
+├── ftp_server	 #ftp服务端
+│   ├── __init__.py
+│   ├── bin # 执行文件 目录
+│   │   ├── __init__.py
+│   │   ├── bin.py  #FTP服务端执行文件
+│   ├── conf #配置文件
+│   │   ├── __init__.py
+│   │   └── path.py #路径文件 
+│   ├── core #主要程序逻辑都 在这个目录 里
+│   │   ├── __init__.py
+│   │   ├── main #主引导文件
+│   ├── data  #用户数据存储的地方
+│   │   ├── __init__.py
+│   │   ├── test_home #模拟用户home目录
+│   │   ├── login_user #登陆用户文件
+│   │   └── test_disk_max #磁盘配额限制最大数
+│   │   └── test_disk_num #磁盘配额使用数		

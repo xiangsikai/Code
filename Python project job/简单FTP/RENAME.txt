@@ -1,0 +1,35 @@
+ 作者：项思凯
+python版本：3.6.1
+程序介绍：
+		 FTP/上传下载
+		1.实现用户登陆，每个用户有自己的home目录
+		2.实现查看用户内的文件
+		3.实现上传，下载文件
+		
+使用介绍：
+		1.开启bin\bin.server端
+		2.开启bin\bin.client端
+		3.用户名：user 123456
+		  用户名：test 123456
+
+程序结构:
+FTP作业/
+├── README
+├── 选课系统.PNG #结构图
+│   ├── bin # 执行文件 目录
+│   │   ├── __init__.py
+│   │   ├── bin_client.py  #ftp客户端
+│   │   ├── bin_server.py  #ftp服务端
+│   ├── conf #配置文件
+│   │   ├── __init__.py
+│   │   └── settings.py 
+│   ├── core #主要程序逻辑都 在这个目录 里
+│   │   ├── __init__.py
+│   │   ├── core #主引导文件
+│   ├── data  #用户数据存储的地方
+│   │   ├── __init__.py
+│   │   ├── user	#用户目录
+│   │   ├── login_user  #登陆用户	
+│   ├── src  #类模块存储
+│   │   ├── __init__.py
+│   │   ├── socket #socket类存储

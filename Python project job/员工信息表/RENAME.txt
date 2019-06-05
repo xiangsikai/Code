@@ -1,0 +1,35 @@
+作者：项思凯
+python版本：3.6.1
+执行程序：员工信息表作业/bin/bin.py
+程序介绍：
+		1.实现员工信息表内，增，删，改，查
+		2.使用sql语句进行操作。
+		#查询语句
+		#select name,age from staff_table where age > 22
+		#select  * from staff_table where dept = "IT"
+		#select  * from staff_table where enroll_date like "2013"
+
+		#创建新员工记录
+		#alter table file.txt add
+
+		#修改语法
+		#UPDATE staff_table SET dept="Market" WHERE where dept = "IT"
+
+		#删除语法
+		#DELETE FROM Person WHERE ID = 1
+		
+程序结构：
+员工信息表作业/
+├── README
+├── 员工信息表.PNG 			#结构图
+├── bin 					#员工信息表 执行文件 目录
+│   └── bin.py  			#员工信息表 执行程序
+├── core 					#作用转换类的函数在目录下	
+│   └──man					#存放转换类的函数
+├── db 						#用户数据存储的地方
+│   └──file.txt				#员工信息表
+├── modules					#模块存放目录
+│   ├── add_py.py			#添加模块
+│   ├── del_py.py			#删除模块
+│   ├── select_py.py		#查找模块
+│	└──	update_py.py		#修改模块
