@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <!-- 引用url返回的路径变量，直接引用form表单内 -->
+    <form action="{{ request.path_info }}" method="POST">
+        <p><input type="text" name="user" placeholder="用户名"></p>
+        <p><input type="text" name="email" placeholder="邮箱"></p>
+        <input type="submit" value="提交">
+    </form>
+    <ul>
+        {%  for k,row in user_dict.items%}
+            {#点击跳转到指定用户下显示信息#}
+            <li><a target="_blank" href="/detail-{{ k }}.html">{{ row.name }}</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

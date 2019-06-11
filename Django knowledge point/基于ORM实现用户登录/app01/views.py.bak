@@ -1,0 +1,101 @@
+from django.shortcuts import render,HttpResponse,redirect
+# Create your views here.
+
+USER_DICT = {
+                '1':{"name":'root1','email':'root@live.com'},
+                '2':{"name":'root2','email':'root@live.com'},
+                '3':{"name":'root3','email':'root@live.com'},
+                '4':{"name":'root4','email':'root@live.com'},
+                '5':{"name":'root5','email':'root@live.com'},
+            }
+
+def index(request,nid):
+    print(request.path_info)
+    from django.urls import reverse
+    # 如果indexx后面有其他值，还需要传入其他值。
+    # v = reverse('indexx',args=(90,))
+    v = reverse('indexx',kwargs={"nid":1})
+    print(v)
+    return render(request,'index.html',{'user_dict':USER_DICT})
+
+
+def detail(request,nid):
+    # get：获取到的内容
+    #　以key值获取重点中的信息
+    detail_info = USER_DICT[nid]
+    # 将获取的信息传入执行html内
+    return render(request,'detail.html',{'detail_info':detail_info})
+
+"""
+def login(request):
+    if request.method == "GET":
+        return render(request,'login.html')
+    elif request.method == "POST":
+        u = request.POST.get('user')
+        p = request.POST.get('pwd')
+        if u == 'alex' and p == '123':
+            return redirect('/index/')
+        else:
+            return render(request,'login.html')
+    else:
+        # PUT,DELETE,HEAD,OPTION ...
+        return redirect('/index/')
+"""
+
+def login(request):
+    if request.method == "GET":
+        return render(request,'login.html')
+    elif request.method == "POST":
+        # getlist 获取多个value值，已列表格式输出
+        # v = request.POST.getlist('favor')
+        # 获取文件对象v等于文件名，类型则是文件类型
+        import os
+        v = request.FILES.get('fafafa')
+        file_path = os.path.join('upload',v.name)
+        f = open(file_path,mode="wb")
+        # chunks表示所有的块
+        for i in v.chunks():
+            f.write(i)
+        f.close()
+
+        return render(request,'login.html')
+    else:
+        # PUT,DELETE,HEAD,OPTION ...
+        return redirect('/index/')
+
+# def home(request):
+#     return HttpResponse('Home')
+
+from django.views import View
+class Home(View):
+
+        def dispatch(self, request, *args, **kwargs):
+
+            # 调用父类中的dispatch，保留父类功能的基础上增加功能
+            print("定制功能1")
+            result = super(Home,self).dispatch(request,*args,**kwargs)
+            print("定制功能2")
+            return result
+
+        def get(self,request):
+            print(request.method)
+            return render(request,'home.html')
+
+        def post(self,request):
+            print(request.method)
+            return render(request, 'home.html')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
