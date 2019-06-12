@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<script>
+		
+	//入口函数
+	// 窗口加载   先是文档加载，图片是后加载
+	   console.log(window.onload);
+
+	   // 1.必须等待图片资源加载完成之后才执行js脚本代码 异步的（不等待） 同步
+		window.onload = function() {
+			console.log(document);
+			console.log(document.documentElement);
+			console.log(document.body);
+
+		};
+		console.log(1111);
+
+		// 2.有事件覆盖
+		// window.onload = function() {
+		// 	// console.log(111);
+		// }
+
+
+
+
+
+	</script>
+
+</head>
+<body>
+
+	<div id="box"></div>
+	<!-- 1. -->
+
+
+	
+</body>
+</html>

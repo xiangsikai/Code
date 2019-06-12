@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="./css/reset.css">
+	<style type="text/css">
+		
+		/*1.标签选择器 选中的是 ‘共性’*/
+		p{
+			color: red;
+		}
+		/*重置样式*/
+		/*组合选择器*/
+		ul,ol{
+			list-style: none;
+		}
+
+
+		/*2.类选择器  .类名  选中的也是共性 可以有多个*/
+		.active{
+			color: yellow;
+		}
+		.large{
+			font-size: 30px;
+		}
+
+		/*3.id选择器  选中的是‘特性’ # id是唯一的*/
+		#p1{
+			color: green;
+		}
+		/*4. 通配符选择器   * 在以后工作中不要用这个  */
+
+		/*一开始布局页面如果写css,一定要重置*/
+
+		/**{	
+			padding: 0;
+			margin: 0;
+
+		}*/
+		a{
+				/*清除a标签的下划线*/
+			text-decoration: none;
+		}
+		.baidu{
+			color: blue;
+			/*下划线*/
+			text-decoration: underline;
+			/*显示小手的状态*/
+			cursor: pointer;
+		}
+		input{
+			border: none;
+			width: 400px;
+			height: 40px;
+			border: 1px solid #e0e0e0;
+			font-size: 22px;
+		}
+
+	</style>
+</head>
+<body>
+	<p id="p1">alex</p>
+	<p id="p2">alex2</p>
+	<p>alex3</p>
+	<p>alex4</p>
+	<p>alex5</p>
+	<ul>
+		<li class="active large">
+			alex1
+		</li>
+		<li>
+			alex2
+		</li>
+	</ul>
+	<ul>
+		<li class="active">
+			wusir
+		</li>
+	</ul>
+	<a href="javascript:void(0);">百度一下</a>
+	<span class="baidu">百度一下</span>
+	<input type="text">
+
+</body>
+</html>

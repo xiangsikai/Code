@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+
+	/*css层叠性  权重 谁的权重大就会显示谁的样式*/
+
+	/*如何看权重  数数选择器  id  class 标签*/
+		
+		/*1 0 0*/
+		/*#box{
+			color: yellow;
+		}*/
+		/*0 1 0*/
+		.box{
+			color: green;
+		}
+		/*0 0 1*/
+		div{
+			color: red;
+		}
+
+		/*  id > 类 > 标签*/
+
+
+	</style>
+</head>
+<body>
+	<div class="box" id="box">猜猜我是什么颜色</div>
+	
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+
+</head>
+<body>
+	<button id="btn">隐藏</button>
+	<div class="box" id="box">
+		
+		<!-- <div class="child">alex</div> -->
+
+	</div>
+
+	<!-- 1.样式属性 display:none|block
+
+		 2.通过控制标签属性className 对类型添加 移除
+
+		 3.DOM创建 销毁 创建销毁
+
+	 -->
+	 <script>
+	 	
+	 	setTimeout(function () {
+	 		var oBox = document.getElementById('box');
+			//DOM的创建 子元素 节点
+			var oChild = document.createElement('div');
+
+
+			oChild.className = 'child';
+			oChild.style.width = '200px';
+			oChild.style.height = '200px';
+			oChild.style.background = 'red';
+
+			// 父.appendChild(子)
+
+			oBox.appendChild(oChild);
+
+	 	},5000)
+
+
+
+
+	 </script>
+	
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style>
+		*{
+			padding: 0;
+			margin: 0;
+		}
+		ul{
+			list-style:none;
+		}
+		a{
+			text-decoration: none;
+		}
+		.box{
+			width: 400px;
+			height: 300px;
+
+		}
+		.box ul {
+			width: 100%;
+			overflow: hidden;
+		}
+		.box ul li{
+			float: left;
+			width: 50px;
+			height: 70px;
+			margin: 0 10px;
+			background-color: red;
+			text-align: center;
+			line-height: 70px;
+		}
+		a{
+			color: #fff;
+		}
+		.active{
+			width: 100%;
+			height: 100px;
+			background-color: green;
+			display: none;
+		}
+		.show{
+			display: block; 
+		}
+	</style>
+</head>
+<body>
+	<button class="next">下一张</button>
+	<div class="box">
+		<ul>
+			<li>
+				<a href="javascript:void(0);">张三</a>
+			</li>
+			<li>
+				<a href="javascript:void(0);">李四</a>
+			</li>
+			<li>
+				<a href="javascript:void(0);">王五</a>
+			</li>
+			<li>
+				<a href="javascript:void(0);">赵六</a>
+			</li>
+		</ul>
+		<div class="active">
+			
+		</div>
+		<div class="active">
+			
+		</div>
+		<div class="active">
+			
+		</div>
+		<div class="active">
+			
+		</div>
+
+	</div>
+	
+	<script src="jquery.js"></script>
+	<script>
+		
+		$(function () {
+
+			
+			var count = 0;
+			
+			$('.next').click(function(event) {
+				count++;
+				$('ul li').eq(count).css('backgroundColor','green').siblings('li').css('backgroundColor','red');
+				$('div.active').eq(count).addClass('show').html('abc').siblings('div.active').removeClass('show').html('');
+
+				
+			});
+
+
+			//点击a标签的时候执行的操作
+			$('.box ul li a').click(function(event) {
+				$(this).css('color','green').parent('li').siblings('li').find('a').css('color','#fff');
+
+				
+
+				var textVal = $(this).text();
+				var newVal = `<h1>${textVal}</h1>`
+				// $('.active').show().text(textVal);
+
+				// index() 将返回列表中第一个元素相对于其同辈元素的位置
+				console.log($(this).parent().index());
+				var index = $(this).parent().index()
+
+				$('div.active').eq(index).addClass('show').html(newVal).siblings('div.active').removeClass('show').html('');
+				
+
+			});
+		})
+	</script>
+	
+	
+
+</body>
+</html>

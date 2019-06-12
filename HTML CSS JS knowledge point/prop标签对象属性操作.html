@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+
+	男<input type="radio" name="sex" checked>
+	女<input type="radio" name="sex">
+	<script src="jquery.js"></script>
+	<script>
+		$(function () {
+			
+		// console.log(	$('input[type=radio]').eq(0).attr('checked'));
+
+
+		// console.dir($('input[type=radio]').eq(0)[0].checked);
+		// console.dir($('input[type=radio]').eq(1)[0]);
+ 		console.dir($('input[type=radio]').eq(1).prop('checked'));
+ 		$('input[type=radio]').eq(1).prop('abc','1123');
+ 		console.log($('input[type=radio]').eq(1));
+
+		})
+	</script>
+</body>
+</html>

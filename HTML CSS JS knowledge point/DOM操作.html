@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div id="father">
+		<div id="laoda"></div>
+		<div id="laoer"></div>
+	</div>
+	<script>
+		
+		var oLaoda = document.getElementById('laoda');
+		// console.log(oLaoda.nextSibling);
+		// console.log(oLaoda.nextElementSibling);
+
+		// 兼容性
+		// var a  = oLaoda.nextElementSibling  || oLaoda.nextSibling;
+		// console.log(a);
+
+		console.log(document.getElementById('father').children);
+
+		console.log(oLaoda.parentNode);
+	</script>
+</body>
+</html>

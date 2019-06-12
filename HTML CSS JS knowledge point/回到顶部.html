@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{
+			padding: 0;
+			margin: 0;
+		}
+		.fixTop{
+			position: fixed;
+			bottom: 20px;
+			right: 30px;
+			width: 100px;
+			height: 100px;
+			line-height: 100px;
+			text-align: center;
+			color: #fff;
+			background-color: #000;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	<ul>
+		<li>1</li>
+		<li>1</li>
+		<li>1</li>
+		<li>1</li>
+		<li>1</li>
+		<li>1</li>
+		<li>1</li>
+		<li>1</li>
+		<li>1</li>
+		<li>1</li>
+		<li>1</li>
+		<li>1</li>
+		<li>1</li>
+		<li>1</li>
+		<li>1</li>
+		<li>1</li>
+		<li>1</li>
+		<li>1</li>
+		<li>1</li>
+		<li>1</li>
+		<li>1</li>
+		<li>1</li>
+		<li>1</li>
+		<li>1</li>
+		<li>1</li>
+		<li>1</li>
+		<li>1</li>
+		<li>1</li>
+		<li>1</li>
+		<li>1</li>
+		<li>1</li>
+		<li>1</li>
+		<li>1</li>
+		<li>1</li>
+		<li>1</li>
+		<li>1</li>
+		<li>1</li>
+		<li>1</li>
+		<li>1</li>
+		<li>1</li>
+		<li>1</li>
+		<li>1</li>
+		<li>1</li>
+		<li>1</li>
+		<li>1</li>
+		<li>1</li>
+		<li>1</li>
+		<li>1</li>
+		<li>1</li>
+		<li>1</li>
+		<li>1</li>
+
+	</ul>
+	<div class="fixTop">回到顶部</div>
+	<script src="jquery.js"></script>
+	<script>
+		
+		$(function () {
+			$('.fixTop').click(function(event) {
+				
+				$('html,body').animate({
+					'scrollTop':0
+
+				},1000)
+
+			
+			});
+
+		});
+	</script>
+</body>
+</html>

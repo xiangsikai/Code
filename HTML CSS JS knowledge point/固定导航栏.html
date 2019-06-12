@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{
+			padding: 0;
+			margin:0;
+		}
+		.header{
+			width: 100%;
+			height: 80px;
+			background-color: red;
+		}
+		.content{
+			width: 100%;
+			height: 1000px;
+			background-color: purple;
+			/*position: relative;*/
+			
+		}
+		.fixTop{
+			width: 100%;
+			height: 100px;
+			background-color: green;
+			position: fixed;
+			top: 0;
+			left: 0;
+			z-index: 1000;
+
+		}
+		
+		.input{
+			width: 400px;
+			height: 60px;
+			background-color: yellow;
+			position: absolute;
+			left: 50%;
+			margin-left: -200px;
+			top: 150px;
+			
+		}
+
+
+	</style>
+</head>
+<body>
+	
+	<div class="header">
+		
+	</div>
+
+	<div class="content">
+		
+		
+		<div class="input"></div>
+	</div>
+	<div class="fixTop" style="display: none;"></div>
+	<script>
+		
+
+		window.onload = function() {
+			var fromTop = document.getElementsByClassName('input')[0].offsetTop;
+			var fixBox = document.getElementsByClassName('fixTop')[0];
+
+			console.log(fromTop);
+			var count = 0;
+			var timer = null;
+			window.onscroll = function() {
+
+				var htmlTop = document.documentElement.scrollTop;
+				console.log(htmlTop);
+				
+				if (htmlTop >= fromTop) {
+					clearInterval(timer);
+					timer = setInterval(function () {
+						count+=10;
+						fixBox.style.display = 'block';
+
+						// fixBox.style.opacity = count;
+						fixBox.style.height = count+'px';
+
+						if (count == 100) {
+							clearInterval(timer);
+						}
+					
+					},1)
+				}else{
+					fixBox.style.display = 'none';
+				}
+				
+			}
+		}
+	</script>
+
+	
+</body>
+</html>

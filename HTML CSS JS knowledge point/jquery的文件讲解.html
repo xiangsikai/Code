@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style>
+		#box{
+			width: 100px;
+			height: 100px;
+			background-color: green;
+		}
+	</style>
+</head>
+<body>
+	<div id="box" class="wrap">alex</div>
+	<!-- from xxx import ooo -->
+	<!-- 1.导入模块 在前端中一个js文件就是一个模块 一个css也可以是一个模块，一个html/png/mp3 -->
+	<script type="text/javascript" src="./jquery.js"></script>
+	<!-- <script type="text/javascript" src="main.js"></script> -->
+
+
+
+	<script>
+		
+		//jquery内部的api 99%的都是方法
+		console.log(jQuery);
+
+		// 
+		console.log($('#box'));
+
+		// 三步走
+		// 1、获取事件源 2、事件  3.事件驱动
+
+		$('#box').click(function(){
+
+			//千万不要调用js的属性和方法  js调用js的属性和方法 ，jquery对象是调用jquery的对象和方法
+			// console.log($('.wrap').style);
+
+			// $('.wrap').css('color','red');
+
+			$('.wrap').css({
+				// 'background-color': 'yellow'
+				'backgroundColor': 'yellow',
+				width:'300px'
+
+			});
+		})
+
+
+
+
+
+	</script>
+	
+</body>
+</html>

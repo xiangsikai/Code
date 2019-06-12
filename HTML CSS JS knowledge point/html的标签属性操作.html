@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.tt{
+			color: red
+		}
+		.active{
+			color: green;
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		
+	</div>
+		
+	<script src="jquery.js"></script>
+	<script>
+		$(function () {
+			//初始化操作
+
+			// $('.box').html('<a href="http://www.baidu.com">百度一下</a>');
+
+			$('.box').html('<a id="anchor"></a>');
+			$('#anchor').attr('href','http://www.baidu.com').text('百度一下');
+
+			console.log($('#anchor').attr('id'));
+			$('#anchor').attr({
+				title:'123',
+				class:'tt'
+			});
+			$('body').click(function () {
+				// $('#anchor').attr('class','active');
+				$('#anchor').addClass('active');
+
+				// 移除多个类名
+				$('#anchor').removeClass('active tt');
+
+				$('#anchor').removeAttr('title href');
+
+
+				
+
+			});
+
+
+		})
+	</script>
+</body>
+</html>

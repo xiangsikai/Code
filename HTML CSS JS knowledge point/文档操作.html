@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<a href="javascript:void(0);" id="weilai">未来</a>
+	<div class="box">
+		
+	</div>
+
+
+
+	<script src="jquery.js"></script>
+	<script>
+		$(function () {
+
+			var oP = document.createElement('p');
+			oP.innerText = '一宁';
+
+			//1.父子之间操作
+			// 获取的是jsDOM对象或者是获取jquery对象 append()相当于一个移动操作
+			// var oA = document.getElementById('weilai');
+				
+			//父.append(子)
+			//子：string | jsDom | jquery对象
+			// $('.box').append('一宁');
+
+			$('.box').append('<h2 id="a">一宁</h2>'); 
+			// $('.box').append(oP);
+			// $('.box').append($('#weilai'));\
+
+
+			// 子.appendTo(父)
+
+
+			$('<h3>一宁</h3>').appendTo('.box').css('color','green').click(function(event) {
+
+				console.log($(this).css('color'));
+				
+			});
+
+
+			$('#a').click(function(event) {
+				alert($(this).text());
+			});
+			
+
+			$('.box').prepend('<h1>alex</h1>');
+
+
+
+
+
+		})
+	</script>
+
+</body>
+</html>

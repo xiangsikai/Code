@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="./node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+    <style>
+      .ttt{
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <p class="lead">
+              <mark>Nullam</mark> quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.
+            </p>
+
+            <p>
+              For example, <code>&lt;section&gt;</code> should be wrapped as inline.
+            </p>
+          </div>
+
+         
+        </div>
+        <div class="col-md-4">
+           <div class="thumbnail">
+            <table class="table table-striped table-bordered table-hover">
+              <tr class="active">
+                <td>#</td>
+                <td>姓名</td>
+                <td>年龄</td>
+                <td>爱好</td>
+              </tr>
+               <tr class="success">
+                <td>1</td>
+                <td>alex</td>
+                <td>18</td>
+                <td>鸡汤</td>
+              </tr>
+              <tr class="info">
+                <td>2</td>
+                <td>alex</td>
+                <td>18</td>
+                <td>鸡汤</td>
+              </tr>
+               <tr class="warning">
+                <td>3</td>
+                <td>alex</td>
+                <td>18</td>
+                <td class="danger">鸡汤</td>
+              </tr>
+            </table>
+          </div>
+         
+        </div>
+         <div class="col-md-4">
+           <div class="thumbnail">
+            <form>
+              <div class="form-group">
+                <label for="user">用户名</label>
+                <input type="text" class="form-control" id="user" placeholder="请输入用户名">
+              </div>
+              <div class="form-group">
+                <label for="pwd">密码</label>
+                <input type="password" class="form-control" id="pwd" placeholder="请输入密码">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputFile">File input</label>
+                <input type="file" id="exampleInputFile">
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox"> Check me out
+                </label>
+              </div>
+              <button type="submit" class="btn btn-default">Submit</button>
+              <button type="submit" class="btn btn-danger">Submit</button>
+
+              <button type="submit" class="btn btn-success">Submit</button>
+              <button type="submit" class="btn btn-warning">Submit</button>
+              <button type="submit" class="btn btn-info">Submit</button>
+              <button type="submit" class="btn btn-link">Submit</button>
+              <div class="checkbox disabled">
+                <label>
+                  <input type="checkbox" value="" disabled>
+                  Option two is disabled
+                </label>
+              </div>
+              <button class="btn btn-primary ttt btn-sm" disabled="disabled">按钮</button>
+              <p class="text-danger">
+                那就回家假按揭啊
+              </p>
+
+              <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <span class="caret"></span>
+
+              <div class="show">哈哈哈哈</div>
+            </form>
+
+          </div>
+         
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

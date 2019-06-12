@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<ul>
+		<li>尚宏运</li>
+		<li>刘宁谦</li>
+		<li>吕星星</li>
+		<li>赵挺</li>
+	</ul>
+	<script src="jquery.js"></script>
+	<script>
+		
+		$(function(){
+			//点元素 变红色
+			$('ul li').click(function() {
+				
+				$(this).css('color','red').siblings('li').css('color','black');
+			
+			});
+		})
+	</script>
+
+</body>
+</html>

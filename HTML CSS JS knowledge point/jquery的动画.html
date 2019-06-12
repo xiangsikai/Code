@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		#box{
+			width: 200px;
+			height: 200px;
+			background-color:red;
+			/*display: none;*/
+		}
+	</style>
+</head>
+<body>
+	<button>动画</button>
+	<button>动画</button>
+	<button>动画</button>
+	<button>动画</button>
+	<button>动画</button>
+	<button>动画</button>
+
+	<div id="box"></div>
+
+	<script src="jquery.js"></script>
+	<script>
+		
+		$(function () {
+			
+			console.log($('button'));
+			var isShow = true;
+			// 内部提升
+			$('button').click(function () {
+			
+				// $('#box').hide(2000);
+				// $('#box').show(2000,function() {
+				// 	alert(2222); 
+				// });
+
+				// 显示
+				// $('#box').fadeIn(5000);
+				// 隐藏
+				// $('#box').fadeOut(5000);
+
+				/*
+				if (isShow) {
+					// 用动画 先 stop()再开动画
+					$('#box').stop().slideUp(1000);
+					isShow = false;
+				}else{
+					$('#box').stop().slideDown(1000);
+					isShow = true;
+				}
+				*/
+				// write less do more
+				$('#box').stop().slideToggle(1000);
+
+
+				// $('#box').slideDown(3000);
+
+
+
+
+
+
+			})
+
+
+
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.box{
+			width: 300px;
+			height: 200px;
+			background-color:red;
+
+		}
+	</style>
+</head>
+<body>
+	<div class="box" id="wrap" style=""></div>
+	<p>alex</p>
+	<script>
+		
+		//1,获取事件源
+		var oDiv = document.getElementById('wrap');
+
+		//2.事件
+		oDiv.onclick = function() {
+			//3.事件驱动 业务
+
+			console.log(oDiv.style);
+			// oDiv.style.backgroundColor = 'green';
+
+			oDiv.style.width = '400px';
+			oDiv.style.float = 'left';
+
+
+		}
+
+
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		#box{
+			width: 200px;
+			height: 200px;
+			background-color: red;
+		}
+		.active{
+			display: none;
+		}
+	</style>
+</head>
+<body>
+	<button id="btn">隐藏</button>
+	<div id="box" class="app"></div>
+	<img src="" alt="" id="myImg">
+	<a href=""></a>
+	<input type="text">
+	<script>
+		//1.样式属性  element.style.样式名 = 'xxx'
+		//2.标签属性  id class title img中的src alt  a标签中href  input标签type name 
+
+
+		// 1.获取事件源
+		// 2.事件  onclick  onmouseover onmouseout
+
+
+
+
+		// var oBtn = document.getElementById('btn');
+		// var oDiv = document.getElementById('box');
+
+		function $(id) {
+			return document.getElementById(id);
+		}
+
+
+		/*
+		var isShow = true;
+		$('btn').onclick = function() {
+			if (isShow) {
+				$('box').style.display = 'none';
+				isShow = false;	
+
+				console.log(this);
+				this.innerText = '显示';
+			}else{
+				$('box').style.display = 'block';
+				isShow = true;	
+
+				console.log(this);
+				this.innerText = '隐藏';
+			}
+			
+		};
+		*/
+
+
+		$('btn').onmouseover = function () {
+
+
+			// 点语法  set方法和get方法
+
+
+			// console.log($('box').className);
+			
+			// $('box').className += ' active';
+
+			// $('box').title = '我的alex';
+			$('myImg').src = './fd039245.jpg';
+			$('myImg').title = '一个美女';
+			$('myImg').alt = '大美女';
+			$('myImg').className = 'active2';
+			this.style.backgroundColor = 'red';
+
+
+		}
+
+
+		$('btn').onmouseout = function () {
+
+
+			// 点语法  set方法和get方法
+
+
+			// console.log($('box').className);
+			
+			// $('box').className += ' active';
+
+			// $('box').title = '我的alex';
+			// $('myImg').src = './fd039245.jpg';
+			// $('myImg').title = '一个美女';
+			// $('myImg').alt = '大美女';
+			// $('myImg').className = 'active2';
+			this.style.backgroundColor = 'green';
+
+
+		}
+		
+	</script>
+	
+</body>
+</html>

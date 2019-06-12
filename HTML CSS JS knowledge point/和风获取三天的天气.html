@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style>
+		.box{
+			width: 200px;
+			height: 200px;
+			background-color: red;
+			display: none;
+		}
+	</style>
+</head>
+<body>
+	<a href="javascript"></a>
+	<div class="box">
+		<ul>
+			<li>
+				<img src="" alt="">
+			</li>
+			<li>
+				<img src="" alt="">
+			</li>
+			<li>
+				<img src="" alt="">
+			</li>
+		</ul>
+	</div>
+	<script src="jquery.js"></script>
+	<script>
+		$(function () {
+
+			var HeWeather6Data = null;
+
+
+			var weatherArry = [];
+
+			// 	https://free-api.heweather.com/s6/weather/now?location=beijing&key=4693ff5ea653469f8bb0c29638035976 
+
+				//加载第一个和风天气的数据
+
+				 function init(){
+					//获取实况天气
+					getNowWeather();
+
+					getForecastWeather();
+				}
+
+				init();
+
+
+				function getNowWeather () {
+					$.ajax({
+						url:`https://free-api.heweather.com/s6/weather/now?location=beijing&key=4693ff5ea653469f8bb0c29638035976`,
+						type:'get',
+						success:function (data) {
+
+							HeWeather6Data = data;
+
+							
+							var cityName = data.HeWeather6[0].basic.location;
+
+							
+
+							$('a').html(cityName)
+
+
+						},
+						error:function (err) {
+							console.log(err);
+						}
+					});
+				}
+
+				function getForecastWeather(){
+					$.ajax({
+						url:'https://free-api.heweather.com/s6/weather/forecast?location=beijing&key=4693ff5ea653469f8bb0c29638035976',
+						type:"get",
+						success:function (data) {
+							console.log(data.HeWeather6[0].daily_forecast);
+
+							weatherArry = data.HeWeather6[0].daily_forecast;
+						}
+					})
+				};
+
+
+				//更新天气
+
+				setInterval(function () {
+					getForecastWeather();
+
+				},1000*60*60*3)
+
+
+
+
+
+				
+				$('a').mouseenter(function() {
+					
+
+					setTimeout(function () {
+
+						$('.box').show();
+
+						weatherArry.forEach(function(item,index){
+							console.log(item,index);
+							// item {}
+
+							var cond_code = item.cond_code_d;
+
+							$('.box ul li img').eq(index).attr('src',`./images/${cond_code}.png`);
+						})
+						
+
+
+						
+					}, 1000)
+				});
+
+
+
+				
+
+				//函数对象
+				
+				
+
+				
+				
+
+				
+
+			});
+
+	
+	</script>
+</body>
+</html>

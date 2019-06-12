@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{
+			padding: 0;
+			margin: 0;
+		}
+		.fu{
+			position: fixed;
+		    top:0;
+		    left: 0;
+		    width: 100%;
+		    height: 320px;
+		    background-color: red;
+		    display: none;
+		}
+		.up{
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body style="height: 2000px">
+	<!-- <form action=""></form> -->
+	<a href='http://www.baidu.com' id="changeFu">换肤</a>
+	<div class="fu">
+		<ul>
+			<li>
+				<a href="javascript:void(0)">女神降临</a>
+			</li>
+			<li>
+				<a href="javascript:void(0)">明星</a>
+			</li>
+
+
+			<span class="up">收起</span>
+
+		</ul>
+	</div>
+	<script src="jquery.js"></script>	
+	<script>
+		$(function () {
+			$('#changeFu').click(function(e) {
+				//阻止当前默认的事件
+				// e.preventDefault();
+				// //阻止冒泡
+				// e.stopPropagation();
+				console.log(111);
+				$('.fu').slideDown(1000);
+				// 相当于即阻止了默认事件 又阻止冒泡
+				return false;
+			});
+
+			$('body,.up').click(function(event) {
+				$('.fu').slideUp(1000);
+			});
+
+
+			$('.fu ul li a').click(function(event) {
+				event.stopPropagation();
+				$(this).css('color','green').parent('li').siblings('li').find('a').css('color','blue');
+			});
+
+			$('.fu').click(function(event) {
+				return false;
+			});
+		});
+	</script>
+</body>
+</html>

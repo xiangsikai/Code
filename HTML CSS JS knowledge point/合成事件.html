@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<button>按钮</button>
+	<script src="jquery.js"></script>
+	<script>
+		$(function () {
+			
+
+			/*
+			$('button').mouseenter(function(event) {
+				
+			});
+
+			$('button').mouseleave(function(event) {
+				
+			});
+			*/
+
+			$('button').hover(function() {
+				/* Stuff to do when the mouse enters the element */
+				console.log('进入');
+			}, function() {
+				/* Stuff to do when the mouse leaves the element */
+				console.log('离开');
+			});
+		})
+	</script>
+</body>
+</html>

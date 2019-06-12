@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<button id="btn">按钮</button>
+	<script>
+		
+
+
+		// document.getElementById('btn').addEventListener('click', function () {
+		// 	alert(1);
+		// },false);
+
+
+		window.onload = function(){
+
+	        var oBtn = document.getElementById('btn');
+
+	        //1.
+	        document.addEventListener('click',function(){
+	            console.log('document处于事件捕获阶段');
+	        }, true);
+
+	        //2.
+	        document.documentElement.addEventListener('click',function(){
+	            console.log('html处于事件捕获阶段');
+	        }, true);
+	        //3
+	         document.body.addEventListener('click',function(){
+	            console.log('body处于事件捕获阶段');
+	        }, true);
+	         //4.
+	        oBtn.addEventListener('click',function(){
+	            console.log('btn处于事件捕获阶段');
+	        }, true);
+	        //
+	        oBtn.addEventListener('click',function(){
+	            console.log('btn处于事件冒泡阶段');
+	        }, false);
+	        //5
+	         document.body.addEventListener('click',function(){
+	            console.log('body处于事件冒泡阶段');
+	        }, false);
+	         //6
+	          document.documentElement.addEventListener('click',function(){
+	            console.log('html处于事件冒泡阶段');
+	        }, false);
+	       //7.
+	        document.addEventListener('click',function(){
+	            console.log('document处于事件冒泡阶段');
+	        }, false);
+
+	        
+	       
+
+	      
+	       
+
+    };
+
+
+
+
+	</script>
+</body>
+</html>

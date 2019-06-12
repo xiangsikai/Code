@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="jquery.js"></script>
+	
+</head>
+<body>
+	<div id="box">
+		
+	</div>
+	<script>
+		//1.入口函数1 不用等待图片资源加载完成之后就可以调用 它没有事件覆盖现象
+
+		/*
+		$(document).ready(function(){
+			//回调函数
+			console.log($('#box'));
+
+		});
+
+		$(document).ready(function(){
+			//回调函数
+			console.log($('#box'));
+
+		});
+		*/
+
+		$(function () {
+			console.log($('#box'));
+		});
+
+		$(function () {
+			
+		})
+
+
+
+	</script>
+	
+	
+</body>
+</html>

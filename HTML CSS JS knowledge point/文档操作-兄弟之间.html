@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+
+	<ul>
+		<li class="item">alex</li>
+	</ul>
+	<script src="jquery.js">
+		
+	</script>
+
+	<script>
+		
+		$(function () {
+			$('.item').after('<li>wusir</li>');
+			$('<li>wusir2</li>').insertAfter($('.item'));
+
+
+			$('.item').replaceWith('<li id="active">wusir3</li>')
+		})
+	</script>
+</body>
+</html>

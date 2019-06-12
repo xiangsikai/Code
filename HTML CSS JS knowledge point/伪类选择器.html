@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style>
+		/*a:hover{
+			color: #ff6700
+		}*/
+		/*爱恨准则 LoVe HAte*/
+		/*没有被访问的a标签的颜色*/
+		a:link{
+			color: green;
+		}
+		/*访问过后的a标签的颜色*/
+		a:visited{
+			color: yellow;
+		}
+		/*鼠标悬停的时候a标签的颜色*/
+		a:hover{
+			color: red;
+		}
+
+		a:active{
+			color: blue;
+		}
+		span:hover{
+			color: red;
+			font-size: 24px;
+			text-decoration: underline;
+		}
+		.child{
+			display: none;
+		}
+		.father:hover .child{
+			color: red;
+			display: block;
+		}
+
+	</style>
+</head>
+<body>
+	<a href="#">百度一下</a>
+
+	<span>alex</span>
+
+	<div class="father">
+		wusir
+		<p class="child">alex</p>
+	</div>
+	
+</body>
+</html>

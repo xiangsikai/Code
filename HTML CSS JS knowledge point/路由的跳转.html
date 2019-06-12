@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<a href="#/home">首页</a>
+	<a href="#/course">课程</a>
+
+	<div id="app"></div>
+
+	<script>
+		window.onhashchange = function(){
+			console.log(location.hash);
+			switch (location.hash) {
+				case '#/home':
+					document.getElementById('app').innerHTML = '<h2>我是首页</h2>'
+					break;
+				case '#/course':
+					document.getElementById('app').innerHTML = '<h2>我是课程</h2>'
+					break;
+				default:
+					// statements_def
+					break;
+			}
+		}
+
+	</script>
+</body>
+</html>

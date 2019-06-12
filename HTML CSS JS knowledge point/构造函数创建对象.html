@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		// var arr = new Array();
+		// console.log(arr);
+		//自定义构造函数
+		function Person(name,age) {
+			
+			this.name = name;
+			this.age = age;
+			this.fav = function() {
+				alert(this.name);
+			}
+		}
+
+		function Fruit(name,age) {
+			
+			this.name = name;
+			this.age = age;
+			this.fav = function() {
+				alert(this.name);
+			}
+		}
+		var p1 = new Person('alex',17);
+		var f1 = new Fruit('wusir',19);
+		console.log(p1 instanceof Object);
+		console.log(f1 instanceof Object);
+		console.log(p1 instanceof Person);
+		console.log(f1 instanceof Fruit);
+
+	</script>
+	
+</body>
+</html>

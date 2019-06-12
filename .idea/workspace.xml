@@ -2,38 +2,205 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6012d63e-065f-43e8-bcf0-7f449b01006c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Python knowledge point/bool类型转换.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python knowledge point/in 和 not in.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python knowledge point/int类型.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python knowledge point/is 和 ==.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python knowledge point/list相关操作.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python knowledge point/range.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python knowledge point/set集合.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python knowledge point/str相关操作.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python knowledge point/str索引和切片.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python knowledge point/while循环.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python knowledge point/元组.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python knowledge point/写文件.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python knowledge point/函数.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python knowledge point/列表.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python knowledge point/列表的增删改查.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python knowledge point/列表的嵌套.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python knowledge point/变量.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python knowledge point/字典.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python knowledge point/文件修改.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python knowledge point/文件操作带+的.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python knowledge point/文件操作示例.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python knowledge point/文件相关操作.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python knowledge point/条件判断.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python knowledge point/格式化输出.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python knowledge point/深浅拷贝.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python knowledge point/用户交互.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python knowledge point/简单基本运算符.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python knowledge point/编码和解码.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python knowledge point/读文件.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python knowledge point/逻辑运算.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/xsk.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python project job/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Python project job/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/BOM.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/DOM操作.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/DOM操作（重要）.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/DOM的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/DOM的操作.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/Date.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/JQ高级选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/a++.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/ajax的get请求.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/es6的let解决选项卡的问题.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/html的标签属性操作.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/jQuery的位置信息.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/jquery的入口函数.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/jquery的动画.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/jquery的文件讲解.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/offset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/prop标签对象属性操作.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/scroll系列.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/siblings方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/switch.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/tab栏选项卡.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/事件三步走.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/事件代理.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/事件冒泡的问题.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/事件流.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/函数.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/初始化获取和风天气数据.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/删除操作.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/动画.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/单双击事件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/原型的模式来创建对象.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/合成事件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/和风获取三天的天气.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/回到顶部.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/固定定位.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/固定导航栏.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/基本过滤选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/字符串.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/字符串的拼接.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/定时器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/对值的操作.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/对标签属性操作.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/对样式的操作.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/对象.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/屏幕的可视区域.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/属性选择器2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/循环.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/换肤.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/控制元素显示隐藏.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/控制元素显示隐藏的方式.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/数据类型转换.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/数组.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/文档操作-兄弟之间.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/文档操作-父子插入.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/文档操作.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/构造函数创建对象.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/比较运算符.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/流程控制.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/盒子显示隐藏.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/第一个js代码.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/筛选选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/聚焦和失焦.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/自定义动画.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/自执行函数.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/表单控件事件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/让绝对的盒子居中.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/请求数据处理的情况.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/路由的跳转.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/选项卡.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/选项卡2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/选项卡嵌套.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/面向对象.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS knowledge point/鼠标悬浮显示天气.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/calculate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/filter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/global和nonlocal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/hashlib模块.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/isinstance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/issubclasss.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/json模块.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/lambda.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/map.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/my_module.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/os模块.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/os模块2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/os精讲.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/pickle模块.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/random模块.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/repr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/re模块.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/socketserver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/socket发送请求.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/socket和线程配合.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/sorted.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/ssh_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/ssh_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/struct模块.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/subprocess模块.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/sys模块.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/threadinglocal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/threadinglocal原理.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/threadinglocal原理（可选）.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/type.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/uuid.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/主动调用其他类的成员.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/二分法查找.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/使用正则表达式的技巧.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/修改文件名称.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/内置函数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/函数名.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/分组在re模块中的使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/初识爬虫.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/初识线程.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/加密.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/动态传参.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/包.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/协程.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/协程_IO切换.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/单线程的并发.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/单线程的并发高级版.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/反射示例-模块/handler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/反射示例-模块/run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/反射示例-面向对象/a.简单示例.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/反射示例-面向对象/b.反射补充.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/反射示例-面向对象/c.反射补充类.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/反射示例-面向对象/xx.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/反射示例-面向对象/练习题.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/名称空间.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/向百度发送请求搜索三个关键字.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/图标.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/基于yield实现协程.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/基于人为来约束.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/多线程.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/多线程的问题.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/多重继承.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/如何编写oop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/字典也是类.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/字段.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/字段成员修饰符.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/属性.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/嵌套.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/序列化模块.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/应用程序.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/异常处理2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/异常处理其他.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/异常处理基础.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/把模块当成脚本来使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/抽象类和抽象方法约束.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/推导式.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/方法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/方法成员修饰符.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/日志.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/日志文件个数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/时间模块.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/查看gil切换的指令.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/模块搜索路径.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/模块的加载与修改.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/模块的导入_fromimport.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/模块的导入_import.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/正则表达式.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/爬虫实例.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/特殊成员.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/生产者消费者模型.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/生成器函数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/生成器表达式.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/用科学的方法判断函数还是方法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/短点续传/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/短点续传/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/短点续传/home/zhangzijian/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/短点续传/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/约束.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/线程安全.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/线程接收任务.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/线程池.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/线程的使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/线程练习.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/继承.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/自定义异常.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/自定义日志.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/解析socket_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/计算器.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/计算器2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/计算文件大小.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/赠送.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/进度条.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/进程.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/进程数据共享.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/进程池.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/进程锁.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/迭代器.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/递归.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/锁Condition.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/锁Event.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/锁Lock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/锁RLock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/锁semaphore.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/闭包.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python knowledge point/面向对象补充.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,17 +210,46 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Code$.coverage" NAME="函数 Coverage Results" MODIFIED="1560243717469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python knowledge point" />
+    <SUITE FILE_PATH="coverage/Code$.coverage" NAME="应用程序 Coverage Results" MODIFIED="1560310819408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="H:/学习资料/Python/老男孩python全栈开发15期/1-40/s15day32/课上代码/s15day32课上所有/day32" />
     <SUITE FILE_PATH="coverage/Code$in__not_in.coverage" NAME="in 和 not in Coverage Results" MODIFIED="1560242202492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python knowledge point" />
     <SUITE FILE_PATH="coverage/Code$bool.coverage" NAME="bool类型转换 Coverage Results" MODIFIED="1560242831776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python knowledge point" />
+    <SUITE FILE_PATH="coverage/Code$json.coverage" NAME="json模块 Coverage Results" MODIFIED="1560308370676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python knowledge point" />
     <SUITE FILE_PATH="coverage/Code$xsk.coverage" NAME="xsk Coverage Results" MODIFIED="1560241383706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Code$set.coverage" NAME="set集合 Coverage Results" MODIFIED="1560243229555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python knowledge point" />
     <SUITE FILE_PATH="coverage/Code$str.coverage" NAME="str相关操作 Coverage Results" MODIFIED="1560242420681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python knowledge point" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="xsk.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/xsk.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="固定定位.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HTML CSS JS knowledge point/固定定位.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="switch.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HTML CSS JS knowledge point/switch.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="DOM操作.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HTML CSS JS knowledge point/DOM操作.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="26" column="7" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="换肤.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HTML CSS JS knowledge point/换肤.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="@media.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HTML CSS JS knowledge point/@media.html">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -77,6 +273,10 @@
         <option value="$PROJECT_DIR$/Python knowledge point/分支.py" />
         <option value="$PROJECT_DIR$/Python knowledge point/str相关操作.py" />
         <option value="$PROJECT_DIR$/Python knowledge point/bool类型转换.py" />
+        <option value="$PROJECT_DIR$/Python knowledge point/动态传参.py" />
+        <option value="$PROJECT_DIR$/Python knowledge point/闭包.py" />
+        <option value="H:/学习资料/Python/老男孩python全栈开发15期/1-40/day16/code/day16/0.讲在课前.py" />
+        <option value="H:/学习资料/Python/老男孩python全栈开发15期/1-40/s15day28/代码/day28/ssh/ssh_client.py" />
       </list>
     </option>
   </component>
@@ -90,8 +290,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="549" />
-    <option name="y" value="182" />
+    <option name="x" value="416" />
+    <option name="y" value="108" />
     <option name="width" value="1012" />
     <option name="height" value="838" />
   </component>
@@ -106,6 +306,11 @@
             <path>
               <item name="Code" type="b2602c69:ProjectViewProjectNode" />
               <item name="Code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Code" type="462c0819:PsiDirectoryNode" />
+              <item name="HTML CSS JS knowledge point" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -122,10 +327,14 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.vagrant" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\1\Desktop\Code\HTML CSS JS knowledge point" />
+      <recent name="C:\Users\1\Desktop\Code\HTML CSS JS" />
       <recent name="C:\Users\1\Desktop\Code\Python knowledge point" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\1\Desktop\Code\HTML CSS JS knowledge point" />
+      <recent name="C:\Users\1\Desktop\Code\HTML CSS JS" />
       <recent name="C:\Users\1\Desktop\Code\Python knowledge point" />
     </key>
   </component>
@@ -141,7 +350,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.函数">
+  <component name="RunManager" selected="Python.应用程序">
     <configuration name="字典" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -156,6 +365,63 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python knowledge point/字典.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="应用程序" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="H:/学习资料/Python/老男孩python全栈开发15期/1-40/s15day32/课上代码/s15day32课上所有/day32" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="H:/学习资料/Python/老男孩python全栈开发15期/1-40/s15day32/课上代码/s15day32课上所有/day32/应用程序.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="闭包" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python knowledge point" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python knowledge point/闭包.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="生成器表达式" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python knowledge point" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python knowledge point/生成器表达式.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -180,7 +446,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="bool类型转换" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="json模块" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -193,64 +459,26 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python knowledge point/bool类型转换.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="set集合" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Code" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python knowledge point" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python knowledge point/set集合.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="str相关操作" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Code" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python knowledge point" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python knowledge point/str相关操作.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python knowledge point/json模块.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.str相关操作" />
-      <item itemvalue="Python.bool类型转换" />
       <item itemvalue="Python.字典" />
-      <item itemvalue="Python.set集合" />
-      <item itemvalue="Python.函数" />
+      <item itemvalue="Python.闭包" />
+      <item itemvalue="Python.生成器表达式" />
+      <item itemvalue="Python.json模块" />
+      <item itemvalue="Python.应用程序" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.函数" />
-        <item itemvalue="Python.set集合" />
+        <item itemvalue="Python.应用程序" />
+        <item itemvalue="Python.json模块" />
+        <item itemvalue="Python.生成器表达式" />
+        <item itemvalue="Python.闭包" />
         <item itemvalue="Python.字典" />
-        <item itemvalue="Python.bool类型转换" />
-        <item itemvalue="Python.str相关操作" />
       </list>
     </recent_temporary>
   </component>
@@ -268,18 +496,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="549" y="182" width="1012" height="838" extended-state="0" />
+    <frame x="416" y="108" width="1012" height="838" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32859176" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22851153" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2914046" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -293,27 +521,27 @@
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="8" />
-      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.17190775" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
-      <window_info anchor="right" id="Database" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="1" />
-      <window_info anchor="right" id="SciView" order="0" />
-      <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Python Console" order="3" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2327044" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32859176" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,158 +550,219 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://H:/学习资料/Python/老男孩python全栈开发15期/1-40/day01/code/03 用户交互.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://H:/学习资料/Python/老男孩python全栈开发15期/1-40/day01/code/02 变量.py">
+    <entry file="file://H:/学习资料/Python/老男孩python全栈开发15期/1-40/s15day28/代码/day28/ssh/hashlib模块.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python knowledge point/用户交互.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python knowledge point/条件判断.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1463">
-          <caret line="77" column="3" selection-start-line="77" selection-start-column="3" selection-end-line="77" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python knowledge point/while循环.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-266">
-          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python knowledge point/变量.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python knowledge point/int类型.py">
+    <entry file="file://H:/学习资料/Python/老男孩python全栈开发15期/1-40/s15day28/代码/day28/ssh/subprocess模块.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://H:/学习资料/Python/老男孩python全栈开发15期/1-40/day04/code/04 列表的增删改查.py">
+    <entry file="file://$PROJECT_DIR$/Python knowledge point/subprocess模块.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python knowledge point/str相关操作.py">
+    <entry file="file://H:/学习资料/Python/老男孩python全栈开发15期/1-40/s15day29/代码/day29.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        <state relative-caret-position="475">
+          <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python knowledge point/元组.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python knowledge point/简单基本运算符.py">
+    <entry file="file://H:/学习资料/Python/老男孩python全栈开发15期/1-40/s15day29/代码/day29/socketserver模块/demo01/client.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python knowledge point/列表.py">
+    <entry file="file://$PROJECT_DIR$/Python knowledge point/多重继承.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        <state relative-caret-position="741">
+          <caret line="39" column="20" lean-forward="true" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python knowledge point/in 和 not in.py">
+    <entry file="file://H:/学习资料/Python/老男孩python全栈开发15期/1-40/s15day29/代码/day29/socketserver模块/demo01/server.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://H:/学习资料/Python/老男孩python全栈开发15期/1-40/s15day30/课上代码/s15day30课上所有/day30/7.赠送.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="342">
+          <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python knowledge point/bool类型转换.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="34" column="15" lean-forward="true" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python knowledge point/字典.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="102" column="10" lean-forward="true" selection-start-line="102" selection-start-column="10" selection-end-line="102" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python knowledge point/编码和解码.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python knowledge point/is 和 ==.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="91" column="26" lean-forward="true" selection-start-line="91" selection-start-column="26" selection-end-line="91" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python knowledge point/深浅拷贝.py">
+    <entry file="file://H:/学习资料/Python/老男孩python全栈开发15期/1-40/s15day30/课上代码/s15day30课上所有/day30/6.解析socket_server.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python knowledge point/set集合.py">
+    <entry file="file://H:/学习资料/Python/老男孩python全栈开发15期/1-40/s15day30/课上代码/s15day30课上所有/day30/1.考试题相关.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="-296" />
+      </provider>
+    </entry>
+    <entry file="file://H:/学习资料/Python/老男孩python全栈开发15期/1-40/s15day30/课上代码/s15day30课上所有/day30/2.socketserver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python knowledge point/文件操作带+的.py">
+    <entry file="file://H:/学习资料/Python/老男孩python全栈开发15期/1-40/s15day30/课上代码/s15day30课上所有/day30/3.初识线程.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://H:/学习资料/Python/老男孩python全栈开发15期/1-40/s15day30/课上代码/s15day30课上所有/day30/5.socket和线程配合.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://H:/学习资料/Python/老男孩python全栈开发15期/1-40/s15day30/课上代码/s15day30课上所有/day30/8.uuid.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://H:/学习资料/Python/老男孩python全栈开发15期/1-40/s15day30/课上代码/s15day30课上所有/s15day30.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="251" column="8" lean-forward="true" selection-start-line="251" selection-start-column="8" selection-end-line="251" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python knowledge point/解析socket_server.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python knowledge point/计算文件大小.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python knowledge point/文件相关操作.py">
+    <entry file="file://H:/学习资料/Python/老男孩python全栈开发15期/1-40/s15day31/课上代码/s15day31课上所有/day31/计算文件大小.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python knowledge point/文件操作示例.py">
+    <entry file="file://H:/学习资料/Python/老男孩python全栈开发15期/1-40/s15day31/课上代码/s15day31课上所有/day31/修改文件名称.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python knowledge point/文件修改.py">
+    <entry file="file://H:/学习资料/Python/老男孩python全栈开发15期/1-40/s15day31/课上代码/s15day31课上所有/day31/图标.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://H:/学习资料/Python/老男孩python全栈开发15期/1-40/day08/code/def/读.py">
+    <entry file="file://H:/学习资料/Python/老男孩python全栈开发15期/1-40/s15day31/课上代码/s15day31课上所有/day31/进度条.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://H:/学习资料/Python/老男孩python全栈开发15期/1-40/day09/code/邱彦涛.py">
+    <entry file="file://H:/学习资料/Python/老男孩python全栈开发15期/1-40/s15day32/课上代码/s15day32课上所有/day32/应用程序.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2052">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="114">
+          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python knowledge point/函数.py">
+    <entry file="file://$PROJECT_DIR$/Python knowledge point/应用程序.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://H:/学习资料/Python/老男孩python全栈开发15期/1-40/s15day32/课上代码/s15day32课上所有/day32/线程的使用.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="62" column="22" lean-forward="true" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
+        <state relative-caret-position="-1197" />
+      </provider>
+    </entry>
+    <entry file="file://H:/学习资料/Python/老男孩python全栈开发15期/1-40/s15day32/课上代码/s15day32课上所有/day32/多线程的问题.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://H:/学习资料/Python/老男孩python全栈开发15期/1-40/s15day32/课上代码/s15day32课上所有/day32/多线程.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://H:/学习资料/Python/老男孩python全栈开发15期/1-40/s15day32/课上代码/s15day32课上所有/day32/查看gil切换的指令.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://H:/学习资料/Python/老男孩python全栈开发15期/1-40/s15day33/课上代码/s15day33课上所有/day33/10.练习.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://H:/学习资料/Python/老男孩python全栈开发15期/1-40/s15day33/课上代码/s15day33课上所有/day33/生产者消费者模型.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python knowledge point/生产者消费者模型.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://H:/学习资料/Python/老男孩python全栈开发15期/1-40/s15day34/课上代码/day34/xx.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://H:/学习资料/Python/老男孩python全栈开发15期/1-40/s15day34/课上代码/day34/初识爬虫.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python knowledge point/面向对象补充.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://H:/学习资料/Python/老男孩python全栈开发15期/1-40/s15day35/课上代码/s15day35课上所有/s15day35/3.前戏.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="27" lean-forward="true" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/xsk.py">
+    <entry file="file://H:/学习资料/Python/老男孩python全栈开发15期/1-40/s15day35/课上代码/s15day35课上所有/s15day35/lzl.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://H:/学习资料/Python/老男孩python全栈开发15期/1-40/s15day35/课上代码/s15day35课上所有/s15day35/使用.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python knowledge point/socket发送请求.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML CSS JS/第一个html.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML CSS JS/img标签.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML CSS JS/排版标签.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML CSS JS/列表.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML CSS JS/表格.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML CSS JS/表格.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML CSS JS/class的使用.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML CSS JS/（标准文档流下）margin的垂直方向的坑.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML CSS JS/background.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML CSS JS knowledge point/固定定位.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML CSS JS knowledge point/switch.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML CSS JS knowledge point/DOM操作.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="7" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML CSS JS knowledge point/换肤.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML CSS JS knowledge point/@media.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>

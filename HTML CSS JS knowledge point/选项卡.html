@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style>
+		.active{
+			background-color: red;
+		}
+		
+		#aaa{
+			width: 50px;
+			height:50px;
+			background-color: yellow;
+			position: relative; 
+		}
+		
+		.box{
+			width: 200px;
+			height: 100px;
+			background-color:red;
+			position: absolute;
+			top:50px;
+			display: none;
+		}
+	</style>
+</head>
+<body>
+	<button>按钮1</button>
+	<button>按钮2</button>
+	<button>按钮3</button>
+	<button>按钮4</button>
+	<button>按钮5</button>
+
+	<div id="aaa">alex
+		
+		<div class="box"></div>
+	</div>
+	
+	<script>
+			
+		var oBtns = document.getElementsByTagName('button');
+
+		for(var i = 0; i < oBtns.length; i++){
+
+			oBtns[i].onclick = function() {
+
+
+				for(var j = 0; j < oBtns.length; j++){
+					oBtns[j].className = '';
+				}
+				
+
+				this.className = 'active';
+			}
+		}
+
+
+		// onmouseover 当穿过父元素和子元素 会调用
+		// onmouseenter 只穿过父元素
+		document.getElementById('aaa').onmouseenter = function () {
+			console.log(1111);
+			
+			this.children[0].style.display = 'block';
+			
+		}
+		document.getElementById('aaa').onmouseleave = function () {
+
+			this.children[0].style.display = 'none';
+			
+		}
+
+		// onmouseenter
+		// onmouseleave
+
+
+	</script>
+	
+</body>
+</html>

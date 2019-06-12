@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<!-- 权重： 优先级高 权重大  谁在页面谁的权重大 -->
+	<!-- 外接样式 -->
+	<link rel="stylesheet" href="./index.css">
+	<style type="text/css">
+		/*内接样式*/
+
+		/*选择器*/
+		span{
+			color: green;
+			font-size: 30px;
+		}
+	</style>
+	<script type="text/javascript" src="./javascript/index.js"></script>
+
+
+</head>
+<body>
+	<!-- 行内样式 的优先级是最高最高的 -->
+	<p style="color: red; font-size: 30px;">wusir</p>
+	<span style="color: purple;">alex</span>
+	
+</body>
+</html>

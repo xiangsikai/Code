@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		label{
+			width: 100px;
+		}
+	</style>
+</head>
+<body>
+	<!-- 与服务器进行交互  HTTP协议 请求的方式：get post-->
+	<!-- http://127.0.0.1:8800 -->
+	<form action="" method="get" Enctype='multipart/form-data'>
+		<!-- 表单控件  -->
+		<p class="user">
+			<label for="username">用户名:</label>
+			<input type="text" name="username" id="username" placeholder="请输入用户名">
+		</p>
+		
+		<p class="pwd">
+			<label for="pwd">密&nbsp;&nbsp;码:</label>
+
+			<input type="password" name="pwd">
+		</p>
+		<p>
+			
+			<input type="file" name="mp3" >
+		</p>
+		<p>	
+			<!-- 单选 -->
+			男：<input type="radio" name="sex" value="man" >
+			女：<input type="radio" name="sex" value="woman" checked>
+
+			
+		</p>
+		<p>
+		爱好：<input type="checkbox" name="love" value="eat">吃饭
+              <input type="checkbox" name="love" value="sleep">睡觉
+              <input type="checkbox" name="love" value="bat">打豆豆
+  			
+
+		</p>
+		<p>
+			 <select name="school">
+	            <option value="1">小学</option>
+	            <option value="2">初中</option>
+	            <option value="3">高中</option>
+	            <option value="4">大学</option>
+	            <option selected>研究生</option>
+       		 </select>
+		</p>
+		<p>
+			<h3>我的描述</h3>
+			<textarea name="" id="" cols="60" rows="10"></textarea>
+		</p>
+		<p class="register">
+			<input type="submit" value="注册">
+			<input type="button" value="普通按钮">
+			<input type="reset" value="重置">
+			<!-- 只允许输入数字 -->
+			<input type="number">
+
+			<button type="button">普通按钮</button>
+		</p>
+
+
+	</form>
+	
+</body>
+</html>

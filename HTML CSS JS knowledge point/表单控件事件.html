@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+
+	<!-- 交互  接收不到 后端返回回来的数据-->
+	<div>
+		<input type="text" name="user">
+		<input type="submit">
+	</div>
+	<script src="jquery.js"></script>
+	<script>
+		
+
+
+		//在公司 中 前后端分离的项目  分工明确  开发效率高
+
+		// django  模板引擎
+		
+		/*
+		$('input[type=submit]').click(function(event) {
+
+			var userName = $('input[type=text]').val();
+			//发送ajax交互
+
+			$.ajax({
+				url:`http://127.0.0.1:8800/?user=${userName}`,
+				type:'get',
+				success:function(data){
+
+				},
+				error:function (err) {
+					console.log(err)
+				}
+			});
+		});
+		*/
+		
+		/*
+		$('form').submit(function(event) {
+			event.preventDefault();
+			console.log(1111);
+
+			// 发送ajax
+
+			$.ajax({
+					url:`https://free-api.heweather.com/s6/weather/now?location=beijing&key=4693ff5ea653469f8bb0c29638035976`,
+					type:'get',
+					success:function (data) {
+
+						console.log(data);
+						
+
+
+					},
+					error:function (err) {
+						console.log(err);
+					}
+				});
+
+
+		});
+		*/
+
+
+
+	</script>
+</body>
+</html>

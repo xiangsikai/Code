@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<input type="text" placeholder="请输入城市">
+	<input type="button" value="获取最新的天气">
+
+
+	<div class="box"></div>
+	<script src="jquery.js"></script>
+	<script>
+		$(function () {
+
+			// 	https://free-api.heweather.com/s6/weather/now?location=beijing&key=4693ff5ea653469f8bb0c29638035976 
+
+			$('input[type=button]').click(function(event) {
+				
+				// ajax
+				var cityVal = $('input[type=text]').val();
+
+				$.ajax({
+					url:`https://free-api.heweather.com/s6/weather/now?location=${cityVal}&key=4693ff5ea653469f8bb0c29638035976`,
+					type:'get',
+					success:function (data) {
+
+						console.log(data);
+						console.log(data.HeWeather6[0].now.tmp);
+						console.log(data.HeWeather6[0].now.cond_txt);
+
+						var tmp = data.HeWeather6[0].now.tmp;
+
+						var nowTmp = `${tmp}℃`;
+
+						$('.box').html(nowTmp)
+
+
+					},
+					error:function (err) {
+						console.log(err);
+					}
+				});
+
+				
+
+			});
+
+			
+		})
+	</script>
+</body>
+</html>

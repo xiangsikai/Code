@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		
+		//使用Object()内置的构造函数来创建对象
+
+
+		// new Array()
+		// []
+
+		/*
+		var person = new Object();
+
+		person.name = 'alex';
+
+		person.age = 18;
+
+		person.fav = function() {
+			
+			alert(this.name);
+		}
+		person.fav();
+		*/
+		/*
+		// 字面量方式创建对象
+		var person = {
+			name:'玖妖',
+			age:18,
+			fav:function() {
+				alert(this.name)
+			}
+		};
+
+		person.fav();
+		*/
+
+
+		function createPerson(){
+			var person = new Object();
+			person.name = 'alex';
+
+			person.age = 18;
+
+			person.fav = function() {
+				
+				alert(this.name);
+			}
+			return person;
+		}
+
+
+		
+		function createFruit(){
+			var fruit = new Object();
+			fruit.name = 'alex';
+
+			fruit.age = 18;
+
+			fruit.fav = function() {
+				
+				alert(this.name);
+			}
+			return fruit;
+		}
+		var p1 = createPerson();
+		var f1 = createFruit();
+
+		console.log(p1 instanceof Object);
+		console.log(f1 instanceof Object);
+
+		
+
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		p:first-letter{
+			color: red;
+			font-size: 26px;
+		}
+		/*用伪元素 属性一定是content*/
+
+		/*伪元素选择器与后面的布局有很大关系*/
+		p:before{
+			content: '$'
+		}
+		p:after{
+			content: '.'
+		}
+		.box2{
+
+			/*需求：这个盒子一定是块级标签  span==>块 并且不再页面中占位置。未来与布局有很大关系 */
+
+			/*隐藏元素 不占位置*/
+			/*display: none;*/
+			display: block;
+			
+			/*display: none;*/
+			/*隐藏元素 占位置*/
+			visibility: hidden;
+			height: 0;
+
+		}
+
+	</style>
+</head>
+<body>
+	<p class="box">
+		<span>alex</span>
+	</p>
+
+	<span class="box2">alex</span>
+	<div>wusir</div>
+	
+</body>
+</html>

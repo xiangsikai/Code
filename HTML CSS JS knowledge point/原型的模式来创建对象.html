@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+
+	<script>
+		function Person(name,age) {
+			this.name = name;
+			this.age = age;			 
+		}
+		// Person.prototype 它是person的父类
+
+
+		// 原型 prototype
+		Person.prototype.showName = function() {
+			// this指的是person
+			console.log(this.name)
+		}
+		var p1 = new Person('alex',18);
+		console.log(p1);
+		p1.showName();
+	</script>
+	
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>
+		
+	</title>
+	<style>
+	/*继承来的属性 它的权重为0，跟选中的标签没有可比性*/
+		#father1 #father2 #father3{
+			color: red;
+		}
+		#father1 .box2 .box3 p{
+			color: green;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="box1" id="father1">
+		<ul class="box2" id="father2">
+			<li class="box3" id="father3">
+				<p class="box4" id="child">猜猜我的颜色</p>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>

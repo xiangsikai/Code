@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+  <style>
+  	#box{
+  		width:200px;
+  		height: 200px;
+  		line-height: 200px;
+  		text-align: center; 
+  		background-color: green;
+  		color: #fff;
+  		position: absolute;
+  		top: 1000px;
+  	}
+  </style>
+</head>
+<body style="height: 2000px;">
+
+	<div id="box"  class="animate bounceOutLeft">wusir</div>
+	<script src="jquery.js"></script>
+
+	<!-- <h2 class="animated fadeOutRight delay-2s">alex</h2> -->
+	<script>
+		
+		$(function () {
+			// $('#box').addClass('animated bounceOutLeft');
+
+			$(document).scroll(function () {
+				
+				console.log($(this).scrollTop());
+
+				var scrollTopHeight = $(this).scrollTop();
+
+				if (scrollTopHeight >= 1000) {
+					 $('#box').addClass('animated slideInDown');
+
+				}
+			})
+		});
+	</script>
+</body>
+</html>

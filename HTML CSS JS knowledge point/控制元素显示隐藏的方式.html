@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.child{
+			width: 200px;
+			height: 200px;
+			background-color: green;
+		}
+		.hidden{
+			display: none;
+		}
+	</style>
+</head>
+<body>
+	<button id="btn">隐藏</button>
+	<div class="box">
+		
+		<div class="child" id="child"></div>
+
+	</div>
+
+	<!-- 1.样式属性 display:none|block
+
+		 2.通过控制标签属性className 对类型添加 移除
+
+		 3.DOM创建 销毁 创建销毁
+
+	 -->
+	 <script>
+	 	
+		var oChild = document.getElementById('child');
+// 
+		document.getElementById('btn').onclick  = function() {
+			// oChild.style.display = 'none';
+
+			// oChild.className +=' hidden';
+			oChild.className = oChild.className + ' hidden';
+			console.log(oChild.className);
+		}
+
+
+	 </script>
+	
+</body>
+</html>

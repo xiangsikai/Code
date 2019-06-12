@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		#box{
+			width: 100px;
+			height: 100px;
+			background-color: red;
+		}
+	</style>
+</head>
+<body>
+	<button id="start">开启定时器</button>
+	<button id="clear">清除定时器</button>
+
+	<div id="box"></div>
+
+	<!-- 定时器
+		
+		（1）一次性定时器
+			 可以做异步
+		（2）循环周期定时器
+			可以做动画
+
+			js跟python一样 都有垃圾回收机制
+
+			but 定时器对象 垃圾回收收不回
+
+
+			开一次性定时器：
+			var timer = setTimeout(fn,1000);
+			开循环定时器
+			setInterval(fn,1000);
+
+
+			clearTimeout()
+			clearInterval()
+
+
+
+
+	 -->
+
+	 <script>
+	 	/*
+	 	var timer = null;
+	 	document.getElementById('start').onclick = function() {
+	 		
+	 		// 未来 数据交互的时候 如果数据阻塞了，可以考虑 加一个一次性定时器来处理
+	 		timer  = setTimeout(function(){
+	 			console.log(1111);
+	 		},3000);
+	 		console.log(2222);
+
+	 	}
+	 	document.getElementById('clear').onclick = function() {
+	 		clearTimeout(timer);
+	 	}
+	 	*/
+	 	var count = 0;
+	 	var timer = null;
+	 	document.getElementById('start').onclick = function() {
+
+	 		var oDiv = document.getElementById('box');
+	 		clearInterval(timer);
+	 		
+	 		timer = setInterval(function() {
+	 			count+=10;
+
+	 			oDiv.style.marginLeft = count + 'px';
+	 			
+	 		}, 50)
+
+	 	}
+
+
+
+	 </script>
+</body>
+</html>

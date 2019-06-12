@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		abc{
+			width: 100px;
+			height: 100px;
+			background-color: red;
+			display: block;
+		}
+	</style>
+</head>
+<body>
+	<div id="box">
+		<p id="child1">alex</p>
+	</div>
+	<script>
+		
+		var oDiv = document.getElementById('box');
+		var op1 = document.getElementById('child1');
+
+		// var oP = document.createElement('abc');
+
+		// oDiv.appendChild(oP);
+
+		var op2 = document.createElement('p');
+		op2.innerText = 'wusir';
+
+
+		oDiv.insertBefore(op2, op1);
+		
+
+
+
+
+
+	</script>
+	
+</body>
+</html>

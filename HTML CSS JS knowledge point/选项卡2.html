@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style>
+		*{
+			padding: 0;
+			margin: 0;
+		}
+		ul{
+			list-style:none;
+		}
+		a{
+			text-decoration: none;
+		}
+		.box{
+			width: 400px;
+			height: 300px;
+
+		}
+		.box ul {
+			width: 100%;
+			overflow: hidden;
+		}
+		.box ul li{
+			float: left;
+			width: 50px;
+			height: 70px;
+			margin: 0 10px;
+			background-color: red;
+			text-align: center;
+			line-height: 70px;
+		}
+		a{
+			color: #fff;
+		}
+		.active{
+			width: 100%;
+			height: 100px;
+			background-color: green;
+			display: none;
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<ul>
+			
+		</ul>
+		<div class="active">
+			
+		</div>
+	</div>
+	<form action="">
+		<input type="text" value="123">
+	</form>
+
+	<script src="jquery.js"></script>
+	<script>
+		
+		$(function () {
+			console.log($('input[type=text]').val('111111'));
+
+			//初始化操作
+
+			console.log($('.box').html());
+			$('.box ul').html(`<li>
+				<a href="javascript:void(0);">张三</a>
+			</li>
+			<li>
+				<a href="javascript:void(0);">李四</a>
+			</li>
+			<li>
+				<a href="javascript:void(0);">王五</a>
+			</li>
+			<li>
+				<a href="javascript:void(0);">赵六</a>
+			</li>`);
+
+
+			//点击a标签的时候执行的操作
+			$('.box ul li a').click(function(event) {
+				$(this).css('color','green').parent('li').siblings('li').find('a').css('color','#fff');
+
+				console.log();
+				// $(this).text('alex');
+				// innerText
+
+				var textVal = $(this).text();
+				var newVal = `<h1>${textVal}</h1>`
+				// $('.active').show().text(textVal);
+
+				//innerHTML的封装
+				$('.active').show().html(newVal);
+
+			});
+		})
+	</script>
+	
+	
+
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.box{
+			width: 200px;
+			height: 200px;
+			background-color: red;
+		}
+	</style>
+</head>
+<body>
+	<div id="box" class="box"></div>
+<!-- 	<div id="box2" class="box"></div> -->
+
+
+	<script>
+		
+	//需求： 默认盒子是200*200 红色 点击盒子让盒子颜色变成绿色
+
+	//1.获取事件源（标签）2.事件   3.事件驱动程序
+	// 获取DOM的三种方式
+
+	//获取事件源
+	var oDiv = document.getElementById('box');
+	console.log(oDiv);
+	var oDiv2 = document.getElementsByClassName('box')[0];
+	console.log(oDiv2);
+	// 获取出来是伪数组
+	var oDiv3 = document.getElementsByTagName('div')[0];
+	console.log(oDiv3);
+
+
+	// var oDiv4 = document.querySelector('.box');
+	// console.log(oDiv4);
+
+	var isRed = true;
+	//2.事件
+	oDiv.onclick = function() {
+		
+
+		if (isRed) {
+			//3.驱动程序
+			console.log(oDiv.style);
+			oDiv.style.backgroundColor = 'green';
+			isRed = false;
+
+		}else{
+				//3.驱动程序
+			console.log(oDiv.style);
+			oDiv.style.backgroundColor = 'red';
+			isRed = true;
+		}
+		
+
+
+	}
+
+
+
+
+	</script>
+	
+</body>
+</html>

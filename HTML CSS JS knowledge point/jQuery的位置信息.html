@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style>
+		*{
+			padding: 0;
+			margin: 0;
+		}
+		.father{
+			width: 400px;
+			height: 400px;
+			background-color:yellow;
+			position: relative;
+			top: 20px;
+		}
+		.box{
+			width: 200px;
+			height: 200px;
+			padding: 10px;
+			border: 1px solid yellow;
+			background-color: red;
+			position: absolute;
+
+			top:10px;
+			left: 100px;
+		}
+	</style>
+</head>
+<body>
+	<div class="father">
+		<div class="box"></div>
+	</div>
+	<ul>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+		<li>11</li>
+
+	</ul>
+	
+	<script src="jquery.js"></script>
+	<script>
+		$(function () {
+			//1.获取内容宽和高
+
+			// console.log($('.box').width());
+			// console.log($('.box').height());
+
+			//当2秒之后 让div的盒子的宽度变成400
+
+			// delay() 必须要结合动画的方法
+			// $('.box').delay(2000).hide(3000);
+
+			// setTimeout(function (argument) {
+			// 	// 设置宽
+			// 	$('.box').width(400);
+
+			// },2000);
+
+
+
+			//2.innerWidth() innerHeight() 内部的宽和高  包含内容的宽+ padding 不包含border
+
+			// console.log($('.box').innerWidth());
+			// $('.box').innerWidth(400);
+
+// 
+			//3.outerWidth() outerHeight() 外部的宽和高  包含内容的宽+padding+border 整个盒模型的大小
+			// console.log($('.box').outerWidth());
+
+
+			// console.log($('.box').offset().top);
+
+
+			// $(document).scroll(function(event) {
+			// 	// console.log(1111);
+
+			// 	console.log($(this).scrollTop());
+			// });
+
+		});
+	</script>
+</body>
+</html>

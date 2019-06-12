@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.content{
+			display: none;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="box">alex</div>
+	<div class="content">
+		<!-- <div class="item"></div>
+		<div class="item"></div>
+		<div class="item"></div> -->
+
+	</div>
+	<script src="jquery.js"></script>
+	<script>
+		
+		$(function () {
+	
+			document.getElementsByClassName('box')[0].addEventListener('click',function () {
+
+				alert(1);
+				
+			},false);
+			$('.box').mouseenter(function(event) {
+				$.ajax({
+						url:'https://free-api.heweather.com/s6/weather/forecast?location=beijing&key=4693ff5ea653469f8bb0c29638035976',
+						type:"get",
+						success:function (data) {
+							console.log(data.HeWeather6[0].daily_forecast);
+							var datas = data.HeWeather6[0].daily_forecast
+
+							$('.content').show();
+							$('.content').empty();
+							datas.forEach(function(item,index) {
+								// $('.content .item').eq(index).html(item.tmp_max); 
+
+								$('<div class="item"></div>').appendTo('.content').html(item.tmp_max);
+							})
+
+							
+						}
+					})
+			});
+
+			$('.box').mouseleave(function() {
+				$('.content').hide();
+			});
+		})
+	</script>
+	
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+    </head>
+    <body>
+    </body>
+    <script type="text/javascript">
+        
+        // 屏幕的可视区域
+        window.onload = function(){
+            
+            // document.documentElement 获取的是html标签
+            console.log(document.documentElement.clientWidth);
+            console.log(document.documentElement.clientHeight);
+            // 窗口大小发生变化时，会调用此方法
+            window.onresize = function(){    
+                // console.log(1111);
+                // console.log(document.documentElement.clientWidth);
+                console.log(document.documentElement.clientHeight);
+            }
+            
+            
+            
+        }
+    </script>
+</html>

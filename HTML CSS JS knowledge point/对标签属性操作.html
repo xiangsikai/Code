@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.box{
+			width: 42px;
+			height: 70px;
+			background: url(./images/icon-slides.png) no-repeat -84px 0;
+			/*background-position: -82px 0;*/
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="box"></div>
+
+	<img src="./images/购物车.png" width="100" alt="" id="shop">
+	<script>
+		
+		/*
+		var oDiv = document.getElementsByClassName('box')[0];
+
+		oDiv.onmouseover = function() {
+			this.style.backgroundPosition = '0 0';
+		}
+		oDiv.onmouseout = function() {
+			this.style.backgroundPosition = '-84px 0';
+		}
+		*/
+		var isHover = true;
+
+		document.getElementById('shop').onclick = function() {
+			if (isHover) {
+				this.src = './images/购物车-hover.png';
+
+				this.className = 'app';
+				this.alt = '哈哈哈';
+				this.title = '哈哈哈';
+				this.id = 'app';
+
+				isHover = false;
+			}else{
+				this.src = './images/购物车.png';
+				isHover = true;
+			}
+			// this.setAttribute(name: DOMString, value: DOMString)
+			// console.log(this.getAttribute('src'));
+			// console.log(this.src);
+
+			// this.setAttribute('src', './images/购物车-hover.png');
+
+			
+		}
+
+
+
+
+	</script>
+
+</body>
+</html>

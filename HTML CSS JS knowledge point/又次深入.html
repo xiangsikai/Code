@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>
+		
+	</title>
+	<style>
+	/*继承来的属性 权重为0*/
+
+	/*如果是继承来的熟悉，就近原则，谁更深入谁厉害*/
+		/*#father1 .box2{
+			color: red;
+		}
+		.box1{
+			color: green;
+		}*/
+		/*都是继承来的 ，都一样深*/
+
+		#father1 #father2 .box3{
+			color: red;
+		}
+		#father1 .box2 .box3{
+			color: green;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="box1" id="father1">
+		<ul class="box2" id="father2">
+			<li class="box3" id="father3">
+				<p class="box4" id="child">猜猜我的颜色</p>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>

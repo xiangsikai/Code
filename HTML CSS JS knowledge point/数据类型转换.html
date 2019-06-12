@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<script>
+			
+		//String() toString() 强制类型转换
+		var a = 123;
+		var astr = String(a);
+		console.log(astr);
+
+		console.log(a.toString());
+
+
+		var stringNum = '789.123dadadad';
+		var num2 =  Number(stringNum); //NaN
+		console.log(num2);
+
+
+		var b1 = '123'; //true
+		var b3 = -123; 
+		var b4 = Infinity; 
+
+
+
+		var b5 = NaN; //false
+		var b2 = 0; //false
+		var b6; //undefined
+		var b7 = null;
+		// 非0既真
+		console.log(Boolean(b7));
+
+	</script>
+	
+</body>
+</html>

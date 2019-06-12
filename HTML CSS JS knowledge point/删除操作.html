@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<button id="btn">删除</button>
+
+	<ul>
+		<li class="item">alex</li>
+	</ul>
+
+	<div class="box"></div>
+	<script src="jquery.js">
+		
+	</script>
+
+	<script>
+		
+		$(function () {
+			$('.item').after('<li>wusir</li>');
+			$('<li>wusir2</li>').insertAfter($('.item'));
+
+
+			$('.item').replaceWith('<li id="active">wusir3</li>');
+
+
+			$('#btn').click(function() {
+				
+				//删除整个节点  它自己的事件 也删除
+				// var $btn = $(this).remove();
+				//删除整个节点  它自己的事件 保留
+				// var $btn = $(this).detach();
+
+				// $('.box').append($btn);
+
+
+				// $('ul').empty();
+
+				$('ul').html('');
+
+			});
+
+
+
+
+
+
+		})
+	</script>
+</body>
+</html>

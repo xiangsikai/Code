@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div class="father">
+		<p>alex</p>
+		<a href="#">日天</a>
+		<span>村长</span>
+		<div class="g">
+			<span>一宁</span>
+		</div>
+
+	</div>
+	<script src="jquery.js"></script>
+	<script>
+		$(function () {
+			// console.log($('.father').find('.g'));
+
+			// $('.g').click(function() {
+			// 	// js对象
+			// 	console.log(this);
+			// 	$(this).css('color','green');
+
+			// });
+			// 亲儿子和孙子 重孙子
+			// console.log($('.father').find('span'))
+			// $('.father').find('.g>span').click(function () {
+			// 	console.log(this);
+			// });
+
+			// 亲儿子
+			// console.log($('.father').children('span'));
+
+			//parent() 获取的是亲爹
+			console.log($('.g span').parent());
+
+			var i = 1;
+			console.log($('.father span').eq(i));
+		})
+
+
+
+
+	</script>
+</body>
+</html>

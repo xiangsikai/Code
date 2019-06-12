@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div class="box">
+		<p id="a">alex</p>
+		<p>日</p>
+		<p>天</p>
+	</div>
+	<p>wusir</p>
+	<script src="jquery.js"></script>
+	<script>
+		
+
+		$(function () {
+			// $('.box>p').css('color','green');	
+
+			// 紧邻的挨着的下一个兄弟元素
+			console.log($('#a+p'));
+		})
+	</script>
+	
+</body>
+</html>

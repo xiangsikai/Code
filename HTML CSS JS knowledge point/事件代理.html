@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<ul>
+		<li class="item1">
+			<a href="javascript:void(0);" id="a">alex</a>
+		</li>
+		<!-- <li>武sir</li> -->
+	</ul>
+	<script src="jquery.js"></script>
+	<script>
+		$(function () {
+			
+
+			// 绑定事件  如果使用事件委托的方式  以后的页面不会出现问题
+
+			// 第二个参数 表示的是后代的选择器
+
+			// 事件委托（代理） 很重要  如果未来 出现 未来添加的元素  优先考虑事件委托 
+
+
+			$('ul').on('click','#a',function () {
+				alert(this.innerText);
+			});
+			// $('ul li').click(function () {
+			// 	alert(this.innerText);
+			// });
+
+
+
+			$('ul').append('<li><a href="javascript:void(0);">wusir</a></li>');
+
+		})
+	</script>
+</body>
+</html>

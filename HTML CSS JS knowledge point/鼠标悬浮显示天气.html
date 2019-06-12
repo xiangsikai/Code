@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style>
+		.box{
+			width: 200px;
+			height: 200px;
+			background-color: red;
+			display: none;
+		}
+	</style>
+</head>
+<body>
+	<a href="javascript"></a>
+	<div class="box"></div>
+	<script src="jquery.js"></script>
+	<script>
+		$(function () {
+
+			var HeWeather6Data = null;
+
+			// 	https://free-api.heweather.com/s6/weather/now?location=beijing&key=4693ff5ea653469f8bb0c29638035976 
+
+				//加载第一个和风天气的数据
+
+				var init = function(){
+					$.ajax({
+					url:`https://free-api.heweather.com/s6/weather/now?location=beijing&key=4693ff5ea653469f8bb0c29638035976`,
+					type:'get',
+					success:function (data) {
+
+						HeWeather6Data = data;
+
+						
+						var cityName = data.HeWeather6[0].basic.location;
+
+						
+
+						$('a').html(cityName)
+
+
+					},
+					error:function (err) {
+						console.log(err);
+					}
+				});
+				}
+
+				init();
+
+				
+				$('a').mouseenter(function() {
+					
+
+					setTimeout(function () {
+
+						$('.box').show();
+						console.log(HeWeather6Data);
+
+
+						
+					}, 1000)
+				});
+
+
+
+				
+
+				//函数对象
+				
+				
+
+				
+				
+
+				
+
+			});
+
+	
+	</script>
+</body>
+</html>
